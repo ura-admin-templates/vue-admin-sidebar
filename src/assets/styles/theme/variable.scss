@@ -1,0 +1,36 @@
+$app-background-color: #ecf0f5;
+
+$theme-base-background-color: #222d32;
+$theme-base-text-color: rgb(197, 192, 192);
+
+// brand color variable
+$brand-color: lighten($theme-base-text-color, 30%);
+$brand-background-color: $theme-base-background-color;
+$brand-box-shadow-color: darken($theme-base-background-color, 25%);
+$brand-background-color-hover: #1E2C34;
+$brand-box-shadow-color: #0b161c;
+
+// toggle color variable
+$toggle-color: lighten($theme-base-background-color, 30%);
+$toggle-hover-color: $theme-base-background-color;
+
+// navbar color variable
+$navbar-menu-item-color: #999;
+$navbar-menu-item-hover-color: #333;
+$navbar-background-color: #fff;
+$navbar-box-shadow-color:rgba(11, 22, 28, 0.1);
+
+// sidebar variable
+$sidebar-toggle-color: #1F2C34;
+$sidebar-background-color: #222d32;
+$sidebar-menu-background-color: #222d32;
+$sidebar-submenu-background-color: darken($sidebar-menu-background-color, 40%);//#2c3b41;
+$sidebar-deep-submenu-background-color: lighten($sidebar-submenu-background-color, 15%);
+$sidebar-menu-background-hover-color: lighten($sidebar-menu-background-color, 10%);
+$sidebar-menu-background-active-color: $sidebar-menu-background-hover-color;
+$sidebar-menu-item-color: rgb(197, 192, 192);
+$sidebar-menu-item-active-color: lighten($sidebar-menu-item-color, 50%);
+$hover-menu__color: #fff;
+$hover-menu__background-color: #1e282c;
+$hover-menu__border-left-color: #3c8dbc;
+$hover-item__background-color: transparent;

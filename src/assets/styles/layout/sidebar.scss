@@ -1,0 +1,42 @@
+///*
+// * Component: Sidebar
+// * ------------------
+// */
+
+.ura-menu{
+  .el-menu-item{
+    height: $navbar-height;
+    line-height: $navbar-height;
+  }
+  .el-menu-item,
+  .el-submenu > .el-submenu__title{
+    // padding-right: 40px;
+
+    i.fa{
+      @include transition(font-size $transition-speed $transition-fn, margin $transition-speed $transition-fn);
+      margin-top: 2px;
+      margin-right: 5px;
+    }
+  }
+  .el-menu{
+    border-radius: 0;
+  }
+}
+.sidebar-menu{
+  border-right: none;
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 50px;
+  // hide scroller bar
+  // margin-right: -20px;
+}
+.el-menu--vertical{
+  .el-menu--popup{
+    padding: 0;
+  }
+  .el-menu.el-menu--popup .el-menu-item{
+    height: $navbar-height;
+    line-height: $navbar-height;
+  }
+}
+
