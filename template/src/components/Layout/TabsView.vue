@@ -15,7 +15,7 @@
           :closable="isTabClosable(tab.name)"
           @close.prevent="closeTabsActive(tab.name)">
           <i :class="{'info': tab.name === tabActiveName, 'dot': true}"></i>
-          {{tab.title}}
+          \{{tab.title}}
         </el-tag>
 
         <article :style="contentViewStyles(tab)" class="tabs-container-content">

@@ -1,4 +1,5 @@
-# admin template
+# {{ name }}
+> {{ description }}
 
 ## Project setup
 ```

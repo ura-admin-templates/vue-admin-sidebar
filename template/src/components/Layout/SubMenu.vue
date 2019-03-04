@@ -4,7 +4,7 @@
     :index="menus.id + ''">
     <template slot="title">
       <ura-icon v-if="menus.icon" :name="menus.icon"></ura-icon>
-      <span slot="title" class="el-menu-item-title">{{menus.name}}</span>
+      <span slot="title" class="el-menu-item-title">\{{menus.name}}</span>
     </template>
     <sub-menu
       v-for="item in menus.children"
@@ -17,7 +17,7 @@
     v-else-if="!menus.hide && (!menus.children || (menus.children && menus.children.length === 0))"
     @click="menuEvent(menus.path, $route)">
     <ura-icon v-if="menus.icon" :name="menus.icon"></ura-icon>
-    <span slot="title" class="el-menu-item-title">{{menus.name}}</span>
+    <span slot="title" class="el-menu-item-title">\{{menus.name}}</span>
   </el-menu-item>
 </template>
 

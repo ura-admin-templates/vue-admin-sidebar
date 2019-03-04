@@ -7,7 +7,7 @@
             <div class="user uv-user-menu">
               <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
                 <img v-if="avatar" :src="avatar" class="user-image" alt="User Image">
-                <span class="hidden-xs">{{name}}</span>
+                <span class="hidden-xs">\{{name}}</span>
               </a>
             </div>
           </el-button>

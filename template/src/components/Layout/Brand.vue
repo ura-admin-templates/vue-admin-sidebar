@@ -1,7 +1,7 @@
 <template>
   <a href="#" class="brand">
      <img v-if="brandIcon" :src="brandIcon" alt="brand icon" class="brand-icon">
-    <span class="brand-label">{{brandLabel}}</span>
+    <span class="brand-label">\{{brandLabel}}</span>
   </a>
 </template>
 
